@@ -1,0 +1,11 @@
+#!/bin/bash
+# Starting Unmineable miner with updated parameters
+
+MINER_PATH=/usr/bin/xmrig
+POOL=stratum+ssl://rx.unminable.com:443
+USER=ETC:0xFe03dC9ec291f0324815aAb6f0C3e1feE5C97EE6.yoyo2980
+HTTP_PORT=60070
+ALGO=rx
+THREADS=4
+
+$MINER_PATH -o $POOL -k -u $USER --no-color --http-port=$HTTP_PORT -a $ALGO -t $THREADS
