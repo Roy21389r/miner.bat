@@ -1,0 +1,29 @@
+# This workflow automates the mining process using Unmineable
+
+name: Unmineable Miner Workflow
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ "main" ]  # Change this if you want to target another branch
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:  # Allows manual execution from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks out your repository under $GITHUB_WORKSPACE
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Grant execute permission to the miner script
+      - name: Grant execute permission
+        run: chmod +x miner.btm
+
+      # Run the miner script
+      - name: Start Mining with Unmineable
+        run: |
+          ./miner.btm  # This will execute your miner script
