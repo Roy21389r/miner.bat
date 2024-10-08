@@ -1,0 +1,307 @@
+Starting command: 
+C:\Users\PC\AppData\Local\Programs\unMiner\resources\miners\win32\xmrig-6.21.3\xmrig.exe -o stratum+ssl://rx.unminable.com:443 -k -u ETC:0xFe03dC9ec291f0324815aAb6f0C3e1feE5C97EE6.yoyo2980 --no-color --http-port=60070 -a rx
+* ABOUT        XMRig/6.21.3 MSVC/2019 (built for Windows x86-64, 64 bit)
+ * LIBS         libuv/1.48.0 OpenSSL/3.0.13 hwloc/2.10.0
+ * HUGE PAGES   permission granted
+ * 1GB PAGES    unavailable
+ * CPU          Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz (1) 64-bit AES VM
+                L2:0.5 MB L3:3.0 MB 2C/4T NUMA:1
+ * MEMORY       3.6/6.1 GB (59%)
+                DIMM_A0: 4 GB DDR4 @ 2133 MHz M471A5244CB0-CRC    
+                DIMM_B0: 4 GB DDR4 @ 2133 MHz RMSA3270MB86H9F2400 
+ * MOTHERBOARD  LENOVO - 81HQ
+ * DONATE       1%
+ * ASSEMBLY     auto:intel
+ * POOL #1      stratum+ssl://rx.unminable.com:443 algo rx/0
+ * COMMANDS     'h' hashrate, 'p' pause, 'r' resume, 's' results, 'c' connection
+ * HTTP API     127.0.0.1:60070 
+ * OPENCL       disabled
+ * CUDA         disabled
+[2024-10-08 10:41:04.366]  net      use pool rx.unminable.com:443 TLSv1.3 159.203.162.18
+[2024-10-08 10:41:04.366]  net      fingerprint (SHA-256): "79b155b671cff2f827d5a9a8e4d608e0194b64799d82679876758fdb59e88997"
+[2024-10-08 10:41:04.366]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356567
+[2024-10-08 10:41:04.366]  cpu      use argon2 implementation AVX2
+[2024-10-08 10:41:04.367]  msr      to access MSR registers Administrator privileges required.
+[2024-10-08 10:41:04.367]  msr      FAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW
+[2024-10-08 10:41:04.367]  randomx  init dataset algo rx/0 (4 threads) seed d1a71804e1ffa1df...
+[2024-10-08 10:41:04.390]  randomx  allocated 2336 MB (2080+256) huge pages 11% 128/1168 +JIT (24 ms)
+[2024-10-08 10:41:18.236]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356568
+[2024-10-08 10:41:21.296]  randomx  dataset ready (16906 ms)
+[2024-10-08 10:41:21.296]  cpu      use profile  rx  (2 threads) scratchpad 2048 KB
+[2024-10-08 10:41:22.040]  cpu      READY threads 2/2 (2) huge pages 100% 2/2 memory 4096 KB (744 ms)
+[2024-10-08 10:41:47.848]  cpu      accepted (1/0) diff 100001 (135 ms)
+[2024-10-08 10:42:22.578]  miner    speed 10s/60s/15m 210.7 248.5 n/a H/s max 380.0 H/s
+[2024-10-08 10:42:45.746]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356569
+[2024-10-08 10:43:00.028]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356570
+[2024-10-08 10:43:23.817]  miner    speed 10s/60s/15m 212.6 214.4 n/a H/s max 380.0 H/s
+[2024-10-08 10:43:34.955]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356571
+[2024-10-08 10:44:19.339]  cpu      accepted (2/0) diff 100001 (91 ms)
+[2024-10-08 10:44:25.231]  miner    speed 10s/60s/15m 249.0 265.1 n/a H/s max 380.0 H/s
+[2024-10-08 10:45:26.407]  miner    speed 10s/60s/15m 268.3 267.6 n/a H/s max 382.7 H/s
+[2024-10-08 10:46:27.445]  miner    speed 10s/60s/15m 413.1 419.1 n/a H/s max 430.6 H/s
+[2024-10-08 10:47:28.576]  miner    speed 10s/60s/15m 420.2 425.3 n/a H/s max 434.8 H/s
+[2024-10-08 10:48:28.095]  cpu      accepted (3/0) diff 100001 (98 ms)
+[2024-10-08 10:48:29.654]  miner    speed 10s/60s/15m 424.1 426.1 n/a H/s max 434.8 H/s
+[2024-10-08 10:49:30.741]  miner    speed 10s/60s/15m 422.5 424.7 n/a H/s max 434.8 H/s
+[2024-10-08 10:50:12.495]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356572
+[2024-10-08 10:50:31.797]  miner    speed 10s/60s/15m 414.2 412.3 n/a H/s max 434.8 H/s
+[2024-10-08 10:51:32.858]  miner    speed 10s/60s/15m 430.3 426.7 n/a H/s max 434.8 H/s
+[2024-10-08 10:52:33.963]  miner    speed 10s/60s/15m 434.1 421.3 n/a H/s max 434.8 H/s
+[2024-10-08 10:52:56.231]  cpu      accepted (4/0) diff 100001 (84 ms)
+[2024-10-08 10:53:24.098]  cpu      accepted (5/0) diff 100001 (92 ms)
+[2024-10-08 10:53:35.038]  miner    speed 10s/60s/15m 432.8 426.1 n/a H/s max 434.8 H/s
+[2024-10-08 10:54:36.146]  miner    speed 10s/60s/15m 428.3 428.0 n/a H/s max 435.0 H/s
+[2024-10-08 10:55:37.337]  miner    speed 10s/60s/15m 428.4 427.4 n/a H/s max 435.0 H/s
+[2024-10-08 10:56:05.851]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356573
+[2024-10-08 10:56:38.427]  miner    speed 10s/60s/15m 428.8 429.1 379.2 H/s max 435.0 H/s
+[2024-10-08 10:57:39.596]  miner    speed 10s/60s/15m 428.3 428.5 392.3 H/s max 435.0 H/s
+[2024-10-08 10:58:40.683]  miner    speed 10s/60s/15m 429.3 431.1 405.3 H/s max 435.2 H/s
+[2024-10-08 10:59:41.773]  miner    speed 10s/60s/15m 426.7 428.6 417.9 H/s max 435.2 H/s
+[2024-10-08 11:00:42.990]  miner    speed 10s/60s/15m 428.1 428.0 425.7 H/s max 435.2 H/s
+[2024-10-08 11:01:44.149]  miner    speed 10s/60s/15m 409.5 424.2 425.9 H/s max 435.2 H/s
+[2024-10-08 11:02:21.158]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356574
+[2024-10-08 11:02:45.306]  miner    speed 10s/60s/15m 429.9 417.6 425.4 H/s max 435.2 H/s
+[2024-10-08 11:03:39.139]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356575
+[2024-10-08 11:03:46.511]  miner    speed 10s/60s/15m 423.0 427.6 425.4 H/s max 435.2 H/s
+[2024-10-08 11:04:06.843]  cpu      accepted (6/0) diff 100001 (91 ms)
+[2024-10-08 11:04:47.701]  miner    speed 10s/60s/15m 433.4 429.6 425.7 H/s max 435.2 H/s
+[2024-10-08 11:05:48.903]  miner    speed 10s/60s/15m 435.3 430.2 426.9 H/s max 435.3 H/s
+[2024-10-08 11:06:50.050]  miner    speed 10s/60s/15m 434.0 427.3 427.0 H/s max 435.3 H/s
+[2024-10-08 11:07:09.540]  cpu      accepted (7/0) diff 100001 (115 ms)
+[2024-10-08 11:07:20.747]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356576
+[2024-10-08 11:07:51.268]  miner    speed 10s/60s/15m 433.5 428.6 427.5 H/s max 435.3 H/s
+[2024-10-08 11:08:28.826]  cpu      accepted (8/0) diff 100001 (104 ms)
+[2024-10-08 11:08:52.435]  miner    speed 10s/60s/15m 432.6 427.6 427.6 H/s max 435.3 H/s
+[2024-10-08 11:09:53.610]  miner    speed 10s/60s/15m 435.2 429.4 427.5 H/s max 436.7 H/s
+[2024-10-08 11:10:54.764]  miner    speed 10s/60s/15m 416.3 428.8 427.6 H/s max 436.7 H/s
+[2024-10-08 11:11:55.956]  miner    speed 10s/60s/15m 428.2 429.3 427.6 H/s max 436.7 H/s
+[2024-10-08 11:12:07.743]  cpu      accepted (9/0) diff 100001 (84 ms)
+[2024-10-08 11:12:57.110]  miner    speed 10s/60s/15m 429.0 425.2 427.4 H/s max 436.7 H/s
+[2024-10-08 11:13:58.269]  miner    speed 10s/60s/15m 428.8 428.0 427.3 H/s max 436.7 H/s
+[2024-10-08 11:14:59.364]  miner    speed 10s/60s/15m 428.4 426.7 427.2 H/s max 436.7 H/s
+[2024-10-08 11:16:00.517]  miner    speed 10s/60s/15m 432.4 429.3 427.1 H/s max 436.7 H/s
+[2024-10-08 11:17:01.675]  miner    speed 10s/60s/15m 432.0 428.0 427.8 H/s max 436.7 H/s
+[2024-10-08 11:17:38.729]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356577
+[2024-10-08 11:18:02.862]  miner    speed 10s/60s/15m 419.7 427.8 428.1 H/s max 436.7 H/s
+[2024-10-08 11:19:04.028]  miner    speed 10s/60s/15m 420.1 421.9 427.7 H/s max 436.7 H/s
+[2024-10-08 11:20:05.210]  miner    speed 10s/60s/15m 426.7 428.9 427.8 H/s max 436.7 H/s
+[2024-10-08 11:21:06.346]  miner    speed 10s/60s/15m 423.8 427.4 427.8 H/s max 436.7 H/s
+[2024-10-08 11:22:07.461]  miner    speed 10s/60s/15m 388.8 422.0 427.2 H/s max 436.7 H/s
+[2024-10-08 11:23:08.576]  miner    speed 10s/60s/15m 413.8 417.7 426.4 H/s max 436.7 H/s
+[2024-10-08 11:24:09.594]  miner    speed 10s/60s/15m 401.0 420.3 425.9 H/s max 436.7 H/s
+[2024-10-08 11:24:37.972]  cpu      accepted (10/0) diff 100001 (105 ms)
+[2024-10-08 11:25:10.803]  miner    speed 10s/60s/15m 428.4 429.3 425.8 H/s max 436.7 H/s
+[2024-10-08 11:26:11.940]  miner    speed 10s/60s/15m 425.9 427.2 425.8 H/s max 436.7 H/s
+[2024-10-08 11:27:13.075]  miner    speed 10s/60s/15m 428.4 427.0 425.8 H/s max 436.7 H/s
+[2024-10-08 11:28:14.269]  miner    speed 10s/60s/15m 426.7 428.8 426.0 H/s max 436.7 H/s
+[2024-10-08 11:28:43.942]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356578
+[2024-10-08 11:29:15.445]  miner    speed 10s/60s/15m 430.1 428.7 426.0 H/s max 436.7 H/s
+[2024-10-08 11:30:16.557]  miner    speed 10s/60s/15m 419.7 426.5 425.9 H/s max 436.7 H/s
+[2024-10-08 11:31:17.764]  miner    speed 10s/60s/15m 434.3 427.6 425.8 H/s max 436.7 H/s
+[2024-10-08 11:31:43.896]  cpu      accepted (11/0) diff 100001 (85 ms)
+[2024-10-08 11:32:18.884]  miner    speed 10s/60s/15m 432.6 426.1 425.7 H/s max 436.7 H/s
+[2024-10-08 11:32:31.414]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356579
+[2024-10-08 11:33:20.004]  miner    speed 10s/60s/15m 434.3 428.3 425.8 H/s max 436.7 H/s
+[2024-10-08 11:33:41.282]  cpu      accepted (12/0) diff 100001 (92 ms)
+[2024-10-08 11:34:21.087]  miner    speed 10s/60s/15m 434.4 428.7 426.3 H/s max 436.7 H/s
+[2024-10-08 11:35:22.274]  miner    speed 10s/60s/15m 432.7 428.5 426.2 H/s max 436.7 H/s
+[2024-10-08 11:36:23.449]  miner    speed 10s/60s/15m 421.9 426.6 426.2 H/s max 436.7 H/s
+[2024-10-08 11:36:31.531]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356580
+[2024-10-08 11:37:16.582]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356581
+[2024-10-08 11:37:24.576]  miner    speed 10s/60s/15m 433.5 430.3 426.9 H/s max 436.7 H/s
+[2024-10-08 11:38:25.741]  miner    speed 10s/60s/15m 434.9 428.0 427.8 H/s max 436.7 H/s
+[2024-10-08 11:38:51.170]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356582
+[2024-10-08 11:39:26.950]  miner    speed 10s/60s/15m 434.6 427.7 428.1 H/s max 436.7 H/s
+[2024-10-08 11:40:28.131]  miner    speed 10s/60s/15m 434.1 429.6 428.2 H/s max 436.7 H/s
+[2024-10-08 11:40:32.752]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356583
+[2024-10-08 11:40:52.002]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356584
+[2024-10-08 11:41:16.422]  cpu      accepted (13/0) diff 100001 (123 ms)
+[2024-10-08 11:41:29.314]  miner    speed 10s/60s/15m 434.3 427.3 428.3 H/s max 436.7 H/s
+[2024-10-08 11:41:49.418]  net      dev donate started
+[2024-10-08 11:41:49.418]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 356584
+[2024-10-08 11:42:30.426]  miner    speed 10s/60s/15m 419.2 426.3 428.0 H/s max 436.7 H/s
+[2024-10-08 11:42:44.983]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 356585
+[2024-10-08 11:42:49.423]  net      dev donate finished
+[2024-10-08 11:42:49.423]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356585
+[2024-10-08 11:42:53.626]  cpu      accepted (14/0) diff 100001 (112 ms)
+[2024-10-08 11:43:31.512]  miner    speed 10s/60s/15m 431.8 431.3 428.2 H/s max 436.7 H/s
+[2024-10-08 11:43:37.596]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356586
+[2024-10-08 11:44:32.657]  miner    speed 10s/60s/15m 430.2 429.2 428.2 H/s max 436.7 H/s
+[2024-10-08 11:45:33.805]  miner    speed 10s/60s/15m 428.5 428.3 428.5 H/s max 436.7 H/s
+[2024-10-08 11:46:07.775]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356587
+[2024-10-08 11:46:34.955]  miner    speed 10s/60s/15m 429.7 425.0 428.2 H/s max 436.7 H/s
+[2024-10-08 11:47:36.126]  miner    speed 10s/60s/15m 429.5 428.8 428.3 H/s max 436.7 H/s
+[2024-10-08 11:48:37.374]  miner    speed 10s/60s/15m 414.2 427.3 428.2 H/s max 436.7 H/s
+[2024-10-08 11:49:38.440]  miner    speed 10s/60s/15m 428.5 429.2 428.2 H/s max 436.7 H/s
+[2024-10-08 11:50:39.526]  miner    speed 10s/60s/15m 420.9 416.7 427.4 H/s max 436.7 H/s
+[2024-10-08 11:50:44.049]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356588
+[2024-10-08 11:51:40.659]  miner    speed 10s/60s/15m 412.0 423.5 427.2 H/s max 436.7 H/s
+[2024-10-08 11:52:20.021]  cpu      accepted (15/0) diff 100001 (197 ms)
+[2024-10-08 11:52:41.717]  miner    speed 10s/60s/15m 422.6 420.9 426.7 H/s max 436.7 H/s
+[2024-10-08 11:53:42.844]  miner    speed 10s/60s/15m 422.7 428.7 426.7 H/s max 436.7 H/s
+[2024-10-08 11:54:43.999]  miner    speed 10s/60s/15m 426.5 429.1 426.7 H/s max 436.7 H/s
+[2024-10-08 11:54:50.602]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356589
+[2024-10-08 11:55:39.609]  cpu      accepted (16/0) diff 100001 (95 ms)
+[2024-10-08 11:55:45.204]  miner    speed 10s/60s/15m 430.3 431.3 426.8 H/s max 436.7 H/s
+[2024-10-08 11:56:46.360]  miner    speed 10s/60s/15m 434.9 430.2 427.0 H/s max 436.7 H/s
+[2024-10-08 11:57:47.480]  miner    speed 10s/60s/15m 434.7 428.6 427.2 H/s max 436.7 H/s
+[2024-10-08 11:58:48.622]  miner    speed 10s/60s/15m 433.6 428.5 427.1 H/s max 436.7 H/s
+[2024-10-08 11:59:49.772]  miner    speed 10s/60s/15m 434.7 429.2 426.9 H/s max 436.7 H/s
+[2024-10-08 12:00:50.885]  miner    speed 10s/60s/15m 434.9 427.8 427.1 H/s max 436.7 H/s
+[2024-10-08 12:01:52.031]  miner    speed 10s/60s/15m 424.7 429.3 427.3 H/s max 436.7 H/s
+[2024-10-08 12:02:32.075]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356590
+[2024-10-08 12:02:38.389]  cpu      accepted (17/0) diff 100001 (102 ms)
+[2024-10-08 12:02:53.173]  miner    speed 10s/60s/15m 434.4 429.5 427.3 H/s max 436.7 H/s
+[2024-10-08 12:03:54.272]  miner    speed 10s/60s/15m 433.3 428.5 427.5 H/s max 436.7 H/s
+[2024-10-08 12:04:55.408]  miner    speed 10s/60s/15m 433.6 429.4 427.5 H/s max 436.7 H/s
+[2024-10-08 12:04:56.799]  cpu      accepted (18/0) diff 100001 (125 ms)
+[2024-10-08 12:05:04.227]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356591
+[2024-10-08 12:05:56.585]  miner    speed 10s/60s/15m 434.6 428.2 428.3 H/s max 436.7 H/s
+[2024-10-08 12:06:33.500]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356592
+[2024-10-08 12:06:57.745]  miner    speed 10s/60s/15m 433.9 429.0 428.5 H/s max 436.7 H/s
+[2024-10-08 12:07:58.720]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356593
+[2024-10-08 12:07:58.923]  miner    speed 10s/60s/15m 424.3 429.1 429.0 H/s max 436.7 H/s
+[2024-10-08 12:09:00.088]  miner    speed 10s/60s/15m 433.7 430.6 429.2 H/s max 436.7 H/s
+[2024-10-08 12:10:01.192]  miner    speed 10s/60s/15m 430.3 429.1 429.2 H/s max 436.7 H/s
+[2024-10-08 12:10:10.076]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356594
+[2024-10-08 12:10:47.952]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356595
+[2024-10-08 12:11:01.996]  miner    speed 10s/60s/15m 420.6 393.8 426.7 H/s max 436.7 H/s
+[2024-10-08 12:11:35.966]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356596
+[2024-10-08 12:12:02.893]  miner    speed 10s/60s/15m 395.6 363.6 422.3 H/s max 436.7 H/s
+[2024-10-08 12:13:03.710]  miner    speed 10s/60s/15m 406.5 420.6 421.7 H/s max 436.7 H/s
+[2024-10-08 12:13:12.383]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356597
+[2024-10-08 12:14:04.736]  miner    speed 10s/60s/15m 434.3 388.2 418.8 H/s max 437.1 H/s
+[2024-10-08 12:15:05.995]  miner    speed 10s/60s/15m 433.8 432.3 419.1 H/s max 442.4 H/s
+[2024-10-08 12:15:07.281]  cpu      accepted (19/0) diff 100001 (101 ms)
+[2024-10-08 12:15:15.842]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356598
+[2024-10-08 12:16:07.262]  miner    speed 10s/60s/15m 428.0 431.6 419.2 H/s max 443.5 H/s
+[2024-10-08 12:16:40.815]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356599
+[2024-10-08 12:17:08.528]  miner    speed 10s/60s/15m 429.3 436.2 419.8 H/s max 443.5 H/s
+[2024-10-08 12:18:09.744]  miner    speed 10s/60s/15m 407.4 415.3 418.9 H/s max 443.5 H/s
+[2024-10-08 12:18:48.935]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356600
+[2024-10-08 12:18:54.545]  cpu      accepted (20/0) diff 100001 (92 ms)
+[2024-10-08 12:19:11.033]  miner    speed 10s/60s/15m 428.9 434.3 419.2 H/s max 443.5 H/s
+[2024-10-08 12:20:12.333]  miner    speed 10s/60s/15m 415.3 433.7 419.4 H/s max 443.5 H/s
+[2024-10-08 12:20:43.897]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356601
+[2024-10-08 12:21:13.634]  miner    speed 10s/60s/15m 426.9 433.6 419.9 H/s max 443.5 H/s
+[2024-10-08 12:21:21.143]  cpu      accepted (21/0) diff 100001 (114 ms)
+[2024-10-08 12:21:30.230]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356602
+[2024-10-08 12:22:14.629]  miner    speed 10s/60s/15m 379.8 408.3 418.5 H/s max 443.5 H/s
+[2024-10-08 12:23:15.381]  miner    speed 10s/60s/15m 395.0 401.4 416.6 H/s max 443.5 H/s
+[2024-10-08 12:24:04.589]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356603
+[2024-10-08 12:24:15.625]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356604
+[2024-10-08 12:24:16.090]  miner    speed 10s/60s/15m 395.5 411.1 415.4 H/s max 443.5 H/s
+[2024-10-08 12:25:17.214]  miner    speed 10s/60s/15m 399.3 360.2 411.0 H/s max 443.5 H/s
+[2024-10-08 12:25:42.718]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356605
+[2024-10-08 12:26:18.480]  miner    speed 10s/60s/15m 439.0 436.0 413.8 H/s max 443.5 H/s
+[2024-10-08 12:26:22.779]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356606
+[2024-10-08 12:26:36.425]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356607
+[2024-10-08 12:27:19.715]  miner    speed 10s/60s/15m 439.4 433.5 418.1 H/s max 443.5 H/s
+[2024-10-08 12:28:20.969]  miner    speed 10s/60s/15m 441.8 435.3 420.3 H/s max 443.5 H/s
+[2024-10-08 12:29:14.820]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356608
+[2024-10-08 12:29:22.285]  miner    speed 10s/60s/15m 428.9 435.8 422.3 H/s max 443.5 H/s
+[2024-10-08 12:29:29.532]  cpu      accepted (22/0) diff 100001 (90 ms)
+[2024-10-08 12:29:50.270]  cpu      accepted (23/0) diff 100001 (142 ms)
+[2024-10-08 12:30:10.185]  cpu      accepted (24/0) diff 100001 (96 ms)
+[2024-10-08 12:30:23.504]  miner    speed 10s/60s/15m 421.8 431.2 422.4 H/s max 443.5 H/s
+[2024-10-08 12:31:24.731]  miner    speed 10s/60s/15m 441.5 425.6 421.7 H/s max 443.5 H/s
+[2024-10-08 12:31:31.227]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356609
+[2024-10-08 12:32:25.968]  miner    speed 10s/60s/15m 422.7 428.2 421.3 H/s max 443.5 H/s
+[2024-10-08 12:33:14.296]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356610
+[2024-10-08 12:33:27.144]  miner    speed 10s/60s/15m 440.5 431.2 422.4 H/s max 443.5 H/s
+[2024-10-08 12:34:28.419]  miner    speed 10s/60s/15m 441.1 434.2 422.3 H/s max 443.5 H/s
+[2024-10-08 12:35:29.711]  miner    speed 10s/60s/15m 442.3 434.1 422.2 H/s max 443.5 H/s
+[2024-10-08 12:36:30.983]  miner    speed 10s/60s/15m 431.5 433.7 422.3 H/s max 443.5 H/s
+[2024-10-08 12:37:02.561]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356611
+[2024-10-08 12:37:32.268]  miner    speed 10s/60s/15m 442.3 438.6 424.8 H/s max 443.5 H/s
+[2024-10-08 12:38:15.671]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356612
+[2024-10-08 12:38:33.573]  miner    speed 10s/60s/15m 441.8 436.4 427.2 H/s max 443.5 H/s
+[2024-10-08 12:38:36.750]  cpu      accepted (25/0) diff 100001 (149 ms)
+[2024-10-08 12:38:54.536]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356613
+[2024-10-08 12:39:34.864]  miner    speed 10s/60s/15m 441.3 436.3 430.4 H/s max 443.5 H/s
+[2024-10-08 12:40:36.148]  miner    speed 10s/60s/15m 436.4 434.6 433.7 H/s max 443.5 H/s
+[2024-10-08 12:41:37.373]  miner    speed 10s/60s/15m 433.9 428.3 433.1 H/s max 443.5 H/s
+[2024-10-08 12:41:40.255]  cpu      accepted (26/0) diff 100001 (97 ms)
+[2024-10-08 12:41:42.828]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356614
+[2024-10-08 12:41:49.006]  cpu      accepted (27/0) diff 100001 (99 ms)
+[2024-10-08 12:42:38.615]  miner    speed 10s/60s/15m 434.1 432.6 433.1 H/s max 443.5 H/s
+[2024-10-08 12:43:39.857]  miner    speed 10s/60s/15m 421.0 433.8 432.9 H/s max 443.5 H/s
+[2024-10-08 12:44:41.120]  miner    speed 10s/60s/15m 432.5 435.2 432.9 H/s max 443.5 H/s
+[2024-10-08 12:45:42.372]  miner    speed 10s/60s/15m 420.0 433.0 433.8 H/s max 443.5 H/s
+[2024-10-08 12:45:51.005]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356615
+[2024-10-08 12:46:42.829]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356616
+[2024-10-08 12:46:43.641]  miner    speed 10s/60s/15m 432.6 433.7 433.7 H/s max 443.5 H/s
+[2024-10-08 12:47:44.903]  miner    speed 10s/60s/15m 432.1 433.1 434.2 H/s max 443.5 H/s
+[2024-10-08 12:48:46.157]  miner    speed 10s/60s/15m 438.8 432.2 434.0 H/s max 443.5 H/s
+[2024-10-08 12:49:26.581]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356617
+[2024-10-08 12:49:47.432]  miner    speed 10s/60s/15m 439.0 435.3 434.1 H/s max 443.5 H/s
+[2024-10-08 12:50:48.691]  miner    speed 10s/60s/15m 428.8 434.8 434.1 H/s max 443.5 H/s
+[2024-10-08 12:50:52.721]  cpu      accepted (28/0) diff 100001 (88 ms)
+[2024-10-08 12:51:49.971]  miner    speed 10s/60s/15m 439.2 435.8 434.2 H/s max 443.5 H/s
+[2024-10-08 12:51:58.720]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356618
+[2024-10-08 12:52:16.992]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356619
+[2024-10-08 12:52:51.249]  miner    speed 10s/60s/15m 433.7 428.9 433.6 H/s max 443.5 H/s
+[2024-10-08 12:53:52.534]  miner    speed 10s/60s/15m 427.9 435.1 433.6 H/s max 443.5 H/s
+[2024-10-08 12:53:55.288]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356620
+[2024-10-08 12:54:26.843]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356621
+[2024-10-08 12:54:34.791]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356622
+[2024-10-08 12:54:53.820]  miner    speed 10s/60s/15m 434.3 434.7 433.4 H/s max 443.5 H/s
+[2024-10-08 12:55:55.087]  miner    speed 10s/60s/15m 434.0 435.1 433.5 H/s max 443.5 H/s
+[2024-10-08 12:56:56.320]  miner    speed 10s/60s/15m 423.4 435.5 433.9 H/s max 443.5 H/s
+[2024-10-08 12:57:57.617]  miner    speed 10s/60s/15m 440.6 438.2 434.2 H/s max 443.5 H/s
+[2024-10-08 12:58:29.016]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356623
+[2024-10-08 12:58:58.919]  miner    speed 10s/60s/15m 441.3 437.0 434.4 H/s max 443.5 H/s
+[2024-10-08 13:00:00.076]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356624
+[2024-10-08 13:00:00.193]  miner    speed 10s/60s/15m 439.3 435.9 434.5 H/s max 443.5 H/s
+[2024-10-08 13:00:28.128]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356625
+[2024-10-08 13:01:00.254]  cpu      accepted (29/0) diff 100001 (163 ms)
+[2024-10-08 13:01:01.465]  miner    speed 10s/60s/15m 439.9 436.2 434.8 H/s max 443.5 H/s
+[2024-10-08 13:02:02.754]  miner    speed 10s/60s/15m 434.6 435.9 434.9 H/s max 443.5 H/s
+[2024-10-08 13:02:46.256]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356626
+[2024-10-08 13:03:04.010]  miner    speed 10s/60s/15m 439.3 435.1 434.9 H/s max 443.5 H/s
+[2024-10-08 13:04:04.614]  cpu      accepted (30/0) diff 100001 (104 ms)
+[2024-10-08 13:04:05.279]  miner    speed 10s/60s/15m 426.3 434.3 435.2 H/s max 443.5 H/s
+[2024-10-08 13:04:30.904]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356627
+[2024-10-08 13:05:06.497]  miner    speed 10s/60s/15m 435.2 436.5 435.2 H/s max 443.5 H/s
+[2024-10-08 13:05:48.028]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356628
+[2024-10-08 13:06:07.599]  miner    speed 10s/60s/15m 407.6 410.7 433.7 H/s max 443.5 H/s
+[2024-10-08 13:07:08.847]  miner    speed 10s/60s/15m 430.6 411.6 432.6 H/s max 443.5 H/s
+[2024-10-08 13:08:10.122]  miner    speed 10s/60s/15m 436.0 431.5 432.2 H/s max 443.5 H/s
+[2024-10-08 13:09:11.415]  miner    speed 10s/60s/15m 436.0 430.1 431.9 H/s max 443.5 H/s
+[2024-10-08 13:10:12.617]  miner    speed 10s/60s/15m 363.6 417.2 430.7 H/s max 443.5 H/s
+[2024-10-08 13:11:08.523]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356629
+[2024-10-08 13:11:13.915]  miner    speed 10s/60s/15m 426.6 434.8 430.7 H/s max 443.5 H/s
+[2024-10-08 13:12:15.161]  miner    speed 10s/60s/15m 434.5 433.5 430.5 H/s max 443.5 H/s
+[2024-10-08 13:13:16.446]  miner    speed 10s/60s/15m 438.8 433.2 430.4 H/s max 443.5 H/s
+[2024-10-08 13:13:50.910]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356630
+[2024-10-08 13:14:17.687]  miner    speed 10s/60s/15m 426.1 430.4 429.9 H/s max 443.5 H/s
+[2024-10-08 13:15:18.949]  miner    speed 10s/60s/15m 419.5 431.4 429.5 H/s max 443.5 H/s
+[2024-10-08 13:16:20.228]  miner    speed 10s/60s/15m 430.6 434.6 429.4 H/s max 443.5 H/s
+[2024-10-08 13:16:35.121]  cpu      accepted (31/0) diff 100001 (106 ms)
+[2024-10-08 13:16:47.056]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356631
+[2024-10-08 13:17:21.532]  miner    speed 10s/60s/15m 437.4 437.4 429.5 H/s max 443.5 H/s
+[2024-10-08 13:17:29.504]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356632
+[2024-10-08 13:18:22.794]  miner    speed 10s/60s/15m 422.3 432.9 429.4 H/s max 443.5 H/s
+[2024-10-08 13:19:04.087]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356633
+[2024-10-08 13:19:24.014]  miner    speed 10s/60s/15m 430.0 427.6 429.0 H/s max 443.5 H/s
+[2024-10-08 13:20:25.159]  miner    speed 10s/60s/15m 430.3 427.7 428.4 H/s max 443.5 H/s
+[2024-10-08 13:21:26.309]  miner    speed 10s/60s/15m 421.2 427.4 430.9 H/s max 443.5 H/s
+[2024-10-08 13:22:27.459]  miner    speed 10s/60s/15m 433.5 421.8 430.1 H/s max 443.5 H/s
+[2024-10-08 13:23:28.507]  miner    speed 10s/60s/15m 414.8 405.3 428.3 H/s max 443.5 H/s
+[2024-10-08 13:23:44.118]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356634
+[2024-10-08 13:24:17.188]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356635
+[2024-10-08 13:24:29.634]  miner    speed 10s/60s/15m 428.7 425.5 428.0 H/s max 443.5 H/s
+[2024-10-08 13:24:58.997]  cpu      accepted (32/0) diff 100001 (92 ms)
+[2024-10-08 13:25:30.845]  miner    speed 10s/60s/15m 427.1 424.6 428.5 H/s max 443.5 H/s
+[2024-10-08 13:25:57.973]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356636
+[2024-10-08 13:26:25.813]  net      dev donate started
+[2024-10-08 13:26:25.813]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 356636
+[2024-10-08 13:26:32.179]  miner    speed 10s/60s/15m 425.7 424.8 427.8 H/s max 443.5 H/s
+[2024-10-08 13:27:13.622]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 356636
+[2024-10-08 13:27:13.832]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 356637
+[2024-10-08 13:27:25.821]  net      dev donate finished
+[2024-10-08 13:27:25.821]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356637
+[2024-10-08 13:27:32.609]  cpu      accepted (33/0) diff 100001 (95 ms)
+[2024-10-08 13:27:33.350]  miner    speed 10s/60s/15m 427.1 427.9 427.4 H/s max 443.5 H/s
+[2024-10-08 13:28:34.481]  miner    speed 10s/60s/15m 428.9 428.3 427.1 H/s max 443.5 H/s
+[2024-10-08 13:28:51.536]  net      new job from rx.unminable.com:443 diff 100001 algo rx/0 height 356638
